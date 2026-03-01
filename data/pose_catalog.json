@@ -1,0 +1,2148 @@
+{
+  "poses": {
+    "contrapposto": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.27,
+        "hip_displacement": 0.35,
+        "weight_asymmetry": 0.65,
+        "joint_articulation": 0.38,
+        "negative_space_area": 0.3,
+        "gaze_deviation": 0.17,
+        "dynamic_tension": 0.15
+      },
+      "geometry": {
+        "shoulder_line_angle": -8,
+        "hip_line_angle": 12,
+        "primary_diagonal": "hip-to-opposite-shoulder",
+        "counter_diagonal": "weight-knee-to-dropped-shoulder",
+        "negative_space_shapes": [
+          "triangle:hip-elbow",
+          "sliver:inner-thigh"
+        ],
+        "focal_anchor": "face-on-upper-third"
+      },
+      "keywords": [
+        "classical",
+        "elegant",
+        "weight-shift",
+        "s-curve",
+        "renaissance"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "right-side-torso",
+          "left-outer-thigh"
+        ],
+        "compressed_surfaces": [
+          "left-waist-fold",
+          "right-inner-hip"
+        ],
+        "angled_planes": [
+          "shoulder-plane-at-negative-8-degrees",
+          "hip-plane-at-positive-22-degrees"
+        ],
+        "joint_bend_points": [
+          "right-knee-slight",
+          "left-hip-lateral",
+          "neck-tilt"
+        ],
+        "gravity_anchor": "right-foot",
+        "surface_facing": [
+          "left-torso-faces-up",
+          "right-torso-faces-down"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "s_curve_exaggerated": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.5,
+        "hip_displacement": 0.55,
+        "weight_asymmetry": 0.75,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.45,
+        "gaze_deviation": 0.22,
+        "dynamic_tension": 0.25
+      },
+      "geometry": {
+        "shoulder_line_angle": -15,
+        "hip_line_angle": 22,
+        "primary_diagonal": "hip-apex-to-head",
+        "counter_diagonal": "extended-leg-to-shoulder",
+        "negative_space_shapes": [
+          "triangle:hip-elbow",
+          "crescent:torso-curve",
+          "triangle:inner-legs"
+        ],
+        "focal_anchor": "hip-apex-or-face"
+      },
+      "keywords": [
+        "editorial",
+        "dramatic",
+        "sinuous",
+        "high-fashion",
+        "vogue"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "right-side-torso-full-length",
+          "left-outer-thigh-to-calf"
+        ],
+        "compressed_surfaces": [
+          "deep-left-waist-fold",
+          "right-inner-hip-crease"
+        ],
+        "angled_planes": [
+          "shoulder-plane-at-negative-15-degrees",
+          "hip-plane-at-positive-22-degrees"
+        ],
+        "joint_bend_points": [
+          "right-knee-moderate",
+          "left-hip-deep-lateral",
+          "neck-tilt",
+          "lumbar-curve"
+        ],
+        "gravity_anchor": "right-foot",
+        "surface_facing": [
+          "left-torso-strongly-faces-up",
+          "right-hip-apex-faces-camera"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "power_stance": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.05,
+        "hip_displacement": 0.05,
+        "weight_asymmetry": 0.1,
+        "joint_articulation": 0.13,
+        "negative_space_area": 0.5,
+        "gaze_deviation": 0.0,
+        "dynamic_tension": 0.2
+      },
+      "geometry": {
+        "shoulder_line_angle": 0,
+        "hip_line_angle": 0,
+        "primary_diagonal": "none-symmetrical",
+        "counter_diagonal": "none",
+        "negative_space_shapes": [
+          "inverted-triangle:legs",
+          "rectangles:arms-torso"
+        ],
+        "focal_anchor": "center-face"
+      },
+      "keywords": [
+        "confident",
+        "commanding",
+        "symmetrical",
+        "strong",
+        "confrontational"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "inner-thighs-bilateral",
+          "chest-expanded"
+        ],
+        "compressed_surfaces": [
+          "minimal"
+        ],
+        "angled_planes": [
+          "shoulder-plane-level",
+          "hip-plane-level"
+        ],
+        "joint_bend_points": [
+          "minimal-all-near-straight"
+        ],
+        "gravity_anchor": "bilateral-feet-even",
+        "surface_facing": [
+          "torso-faces-camera-direct",
+          "shoulders-square-to-lens"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "broken_doll": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.55,
+        "hip_displacement": 0.45,
+        "weight_asymmetry": 0.7,
+        "joint_articulation": 0.88,
+        "negative_space_area": 0.65,
+        "gaze_deviation": 0.45,
+        "dynamic_tension": 0.6
+      },
+      "geometry": {
+        "shoulder_line_angle": -20,
+        "hip_line_angle": 18,
+        "primary_diagonal": "multi-segment-zigzag",
+        "counter_diagonal": "arm-angles-opposing-leg-angles",
+        "negative_space_shapes": [
+          "triangle:elbow-waist",
+          "triangle:knee-gap",
+          "diamond:arm-torso"
+        ],
+        "focal_anchor": "distributed-across-joints"
+      },
+      "keywords": [
+        "angular",
+        "editorial",
+        "avant-garde",
+        "deconstructed",
+        "mannequin"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "multiple-limb-segments-between-bends",
+          "outer-arm-at-elbow-angle"
+        ],
+        "compressed_surfaces": [
+          "inner-elbow-folds",
+          "inner-knee-folds",
+          "waist-compression-at-twist"
+        ],
+        "angled_planes": [
+          "shoulder-at-negative-20",
+          "hip-at-positive-18",
+          "forearm-planes-varied"
+        ],
+        "joint_bend_points": [
+          "both-elbows",
+          "one-or-both-knees",
+          "wrists",
+          "neck",
+          "hip",
+          "lumbar"
+        ],
+        "gravity_anchor": "primary-foot-with-secondary-touch",
+        "surface_facing": [
+          "multiple-planes-in-different-directions",
+          "high-surface-complexity"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "weight_on_wall": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.35,
+        "hip_displacement": 0.4,
+        "weight_asymmetry": 0.6,
+        "joint_articulation": 0.38,
+        "negative_space_area": 0.35,
+        "gaze_deviation": 0.25,
+        "dynamic_tension": 0.1
+      },
+      "geometry": {
+        "shoulder_line_angle": -5,
+        "hip_line_angle": 10,
+        "primary_diagonal": "shoulder-to-crossed-ankles",
+        "counter_diagonal": "head-to-contact-shoulder",
+        "negative_space_shapes": [
+          "triangle:hip-wall-gap",
+          "sliver:crossed-legs"
+        ],
+        "focal_anchor": "face-framed-by-relaxation"
+      },
+      "keywords": [
+        "casual",
+        "relaxed",
+        "cool",
+        "street",
+        "effortless"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "front-torso-slight-arch",
+          "upper-back-against-wall"
+        ],
+        "compressed_surfaces": [
+          "wall-contact-shoulder-blade",
+          "lower-back-curve"
+        ],
+        "angled_planes": [
+          "torso-angled-away-from-wall",
+          "hip-plane-pushed-forward"
+        ],
+        "joint_bend_points": [
+          "weight-leg-knee-slight",
+          "contact-shoulder"
+        ],
+        "gravity_anchor": "wall-and-feet-shared",
+        "surface_facing": [
+          "front-torso-faces-camera",
+          "back-faces-wall"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "arms_akimbo": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.1,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.3,
+        "joint_articulation": 0.38,
+        "negative_space_area": 0.6,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.25
+      },
+      "geometry": {
+        "arm_vectors": [
+          "45-degrees-outward-bilateral"
+        ],
+        "negative_space_shapes": [
+          "triangle:left-arm-torso",
+          "triangle:right-arm-torso"
+        ],
+        "silhouette_effect": "widened",
+        "focal_anchor": "face-framed-by-arm-triangles"
+      },
+      "keywords": [
+        "assertive",
+        "open",
+        "wide-silhouette",
+        "commercial",
+        "catalog"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "outer-upper-arms-bilateral",
+          "side-torso-exposed"
+        ],
+        "compressed_surfaces": [
+          "inner-elbow-bilateral"
+        ],
+        "angled_planes": [
+          "forearm-planes-angled-inward-to-hips"
+        ],
+        "joint_bend_points": [
+          "both-elbows-at-45-degrees",
+          "wrists-on-hips"
+        ],
+        "gravity_anchor": "bilateral-feet",
+        "surface_facing": [
+          "side-torso-framed-by-arm-triangles",
+          "inner-arm-facing-body"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "hand_to_face": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.15,
+        "hip_displacement": 0.1,
+        "weight_asymmetry": 0.2,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.25,
+        "gaze_deviation": 0.2,
+        "dynamic_tension": 0.1
+      },
+      "geometry": {
+        "arm_vectors": [
+          "one-arm-vertical-to-face"
+        ],
+        "negative_space_shapes": [
+          "triangle:elbow-chin-shoulder"
+        ],
+        "silhouette_effect": "asymmetric-narrowed",
+        "focal_anchor": "hand-face-contact-point"
+      },
+      "keywords": [
+        "intimate",
+        "thoughtful",
+        "beauty",
+        "cosmetics",
+        "pensive"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "raised-arm-inner-bicep",
+          "raised-forearm"
+        ],
+        "compressed_surfaces": [
+          "raised-shoulder-compression",
+          "inner-elbow"
+        ],
+        "angled_planes": [
+          "forearm-vertical-to-face",
+          "hand-plane-against-cheek-or-chin"
+        ],
+        "joint_bend_points": [
+          "raised-elbow-acute",
+          "wrist-angled",
+          "shoulder-elevation"
+        ],
+        "gravity_anchor": "feet-stable",
+        "surface_facing": [
+          "raised-inner-arm-exposed",
+          "face-partially-framed-by-hand"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "one_arm_crossed": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.12,
+        "hip_displacement": 0.1,
+        "weight_asymmetry": 0.25,
+        "joint_articulation": 0.38,
+        "negative_space_area": 0.2,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.15
+      },
+      "geometry": {
+        "arm_vectors": [
+          "diagonal-across-torso"
+        ],
+        "negative_space_shapes": [
+          "triangle:arm-torso-gap"
+        ],
+        "silhouette_effect": "self-contained",
+        "focal_anchor": "face-with-arm-leading-line"
+      },
+      "keywords": [
+        "guarded",
+        "editorial",
+        "cool",
+        "reserved",
+        "architectural"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "outer-crossing-arm-forearm"
+        ],
+        "compressed_surfaces": [
+          "inner-elbow-of-crossing-arm",
+          "torso-under-forearm"
+        ],
+        "angled_planes": [
+          "forearm-diagonal-across-torso"
+        ],
+        "joint_bend_points": [
+          "crossing-elbow",
+          "crossing-wrist"
+        ],
+        "gravity_anchor": "feet-stable",
+        "surface_facing": [
+          "torso-partially-covered-by-arm",
+          "crossing-forearm-faces-camera"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "hands_in_pockets": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.1,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.25,
+        "joint_articulation": 0.25,
+        "negative_space_area": 0.15,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.1
+      },
+      "geometry": {
+        "arm_vectors": [
+          "downward-into-pockets-bilateral-or-single"
+        ],
+        "negative_space_shapes": [
+          "narrow:arm-torso-gap"
+        ],
+        "silhouette_effect": "narrowed-casual",
+        "focal_anchor": "face-above-contained-body"
+      },
+      "keywords": [
+        "casual",
+        "nonchalant",
+        "cool",
+        "street",
+        "relaxed"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "minimal"
+        ],
+        "compressed_surfaces": [
+          "pocket-entry-compression",
+          "wrist-bend"
+        ],
+        "angled_planes": [
+          "upper-arm-slight-forward-angle"
+        ],
+        "joint_bend_points": [
+          "elbows-slight",
+          "wrists-into-pockets"
+        ],
+        "gravity_anchor": "feet-stable",
+        "surface_facing": [
+          "torso-direct",
+          "shoulders-slightly-rounded"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "arms_overhead": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.12,
+        "hip_displacement": 0.1,
+        "weight_asymmetry": 0.15,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.55,
+        "gaze_deviation": 0.2,
+        "dynamic_tension": 0.35
+      },
+      "geometry": {
+        "arm_vectors": [
+          "vertical-overhead-bilateral-or-asymmetric"
+        ],
+        "negative_space_shapes": [
+          "triangle:arm-head-arm",
+          "rectangle:arm-torso-gap"
+        ],
+        "silhouette_effect": "elongated-vertically",
+        "focal_anchor": "full-body-vertical-emphasis"
+      },
+      "keywords": [
+        "freedom",
+        "joy",
+        "expressive",
+        "dance",
+        "elongated",
+        "editorial"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "side-torso-bilateral-full-extension",
+          "underarm-exposed",
+          "ribcage-stretched"
+        ],
+        "compressed_surfaces": [
+          "shoulder-joint-compression-overhead"
+        ],
+        "angled_planes": [
+          "arms-near-vertical",
+          "torso-elongated-plane"
+        ],
+        "joint_bend_points": [
+          "shoulders-elevated-maximum",
+          "elbows-optional-bend"
+        ],
+        "gravity_anchor": "feet-stable",
+        "surface_facing": [
+          "underarm-and-side-torso-exposed",
+          "ribcage-visible"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "crossover_walk": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.2,
+        "hip_displacement": 0.4,
+        "weight_asymmetry": 0.8,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.35,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.7
+      },
+      "geometry": {
+        "shoulder_line_angle": -10,
+        "hip_line_angle": 15,
+        "primary_diagonal": "stride-line-heel-to-heel",
+        "stride_vector": "crossing-centerline",
+        "negative_space_shapes": [
+          "triangle:between-legs",
+          "sliver:crossing-ankles"
+        ],
+        "focal_anchor": "face-leading-motion"
+      },
+      "keywords": [
+        "runway",
+        "catwalk",
+        "strut",
+        "hip-sway",
+        "dynamic"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "stride-leg-front-thigh",
+          "trailing-leg-rear-calf"
+        ],
+        "compressed_surfaces": [
+          "stride-leg-rear-knee",
+          "trailing-leg-front-hip-crease"
+        ],
+        "angled_planes": [
+          "shoulder-at-negative-10",
+          "hip-at-positive-15",
+          "stride-plane-crossing-center"
+        ],
+        "joint_bend_points": [
+          "both-knees-mid-stride",
+          "hip-flexion-bilateral",
+          "ankle-push-off"
+        ],
+        "gravity_anchor": "transitioning-between-feet",
+        "surface_facing": [
+          "hip-rotated-toward-camera",
+          "trailing-side-torso-exposed"
+        ],
+        "motion_vectors": [
+          "forward-momentum",
+          "lateral-hip-oscillation"
+        ]
+      }
+    },
+    "mid_stride_freeze": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.3,
+        "hip_displacement": 0.35,
+        "weight_asymmetry": 0.85,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.5,
+        "gaze_deviation": 0.25,
+        "dynamic_tension": 0.8
+      },
+      "geometry": {
+        "stride_vector": "parallel-to-frame-edge",
+        "primary_diagonal": "extended-back-leg-to-leading-shoulder",
+        "negative_space_shapes": [
+          "large-triangle:stride-gap",
+          "triangle:arm-swing"
+        ],
+        "focal_anchor": "face-or-leading-hand"
+      },
+      "keywords": [
+        "caught-in-motion",
+        "street-style",
+        "editorial-action",
+        "energetic"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "trailing-leg-full-extension",
+          "leading-arm-swing-forward"
+        ],
+        "compressed_surfaces": [
+          "leading-leg-hip-crease",
+          "trailing-arm-shoulder"
+        ],
+        "angled_planes": [
+          "stride-plane-parallel-to-frame",
+          "torso-slight-forward-lean"
+        ],
+        "joint_bend_points": [
+          "leading-knee-lifted",
+          "trailing-ankle-push-off",
+          "both-elbows-in-swing"
+        ],
+        "gravity_anchor": "trailing-foot-pushing-off",
+        "surface_facing": [
+          "side-profile-exposed",
+          "stride-gap-visible"
+        ],
+        "motion_vectors": [
+          "strong-forward-momentum",
+          "arm-counter-swing"
+        ]
+      }
+    },
+    "look_back": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.25,
+        "hip_displacement": 0.3,
+        "weight_asymmetry": 0.7,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.4,
+        "gaze_deviation": 0.55,
+        "dynamic_tension": 0.55
+      },
+      "geometry": {
+        "torso_twist": 45,
+        "gaze_vector": "opposite-to-body-direction",
+        "primary_diagonal": "body-forward-gaze-backward-creates-torsion",
+        "negative_space_shapes": [
+          "crescent:twisted-torso",
+          "triangle:arm-body"
+        ],
+        "focal_anchor": "eyes-over-shoulder"
+      },
+      "keywords": [
+        "flirtatious",
+        "mysterious",
+        "departure",
+        "over-shoulder",
+        "torsion"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "camera-side-torso-twist-stretch",
+          "rear-shoulder-blade"
+        ],
+        "compressed_surfaces": [
+          "front-waist-at-twist",
+          "camera-side-neck-compression"
+        ],
+        "angled_planes": [
+          "hip-plane-forward",
+          "shoulder-plane-45-rotated-back",
+          "head-plane-opposite-body"
+        ],
+        "joint_bend_points": [
+          "lumbar-rotation",
+          "thoracic-rotation",
+          "neck-rotation-maximum"
+        ],
+        "gravity_anchor": "lead-foot",
+        "surface_facing": [
+          "back-exposed-to-camera",
+          "face-rotated-toward-camera-over-shoulder"
+        ],
+        "motion_vectors": [
+          "body-moving-away",
+          "gaze-returning-toward-camera"
+        ]
+      }
+    },
+    "stepping_forward": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.15,
+        "hip_displacement": 0.2,
+        "weight_asymmetry": 0.65,
+        "joint_articulation": 0.38,
+        "negative_space_area": 0.3,
+        "gaze_deviation": 0.05,
+        "dynamic_tension": 0.5
+      },
+      "geometry": {
+        "stride_vector": "toward-camera",
+        "primary_diagonal": "leading-foot-to-head",
+        "negative_space_shapes": [
+          "triangle:stride-gap-foreshortened"
+        ],
+        "focal_anchor": "face-approaching"
+      },
+      "keywords": [
+        "approaching",
+        "direct",
+        "confident",
+        "editorial",
+        "presence"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "front-thigh-lead-leg",
+          "rear-calf-trailing"
+        ],
+        "compressed_surfaces": [
+          "hip-crease-trailing-leg"
+        ],
+        "angled_planes": [
+          "torso-slight-forward-lean-toward-camera"
+        ],
+        "joint_bend_points": [
+          "lead-knee-forward",
+          "trailing-ankle"
+        ],
+        "gravity_anchor": "transitioning-forward",
+        "surface_facing": [
+          "full-frontal-torso",
+          "foreshortened-stride"
+        ],
+        "motion_vectors": [
+          "direct-toward-camera",
+          "assertive-approach"
+        ]
+      }
+    },
+    "lunge": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.6,
+        "hip_displacement": 0.5,
+        "weight_asymmetry": 0.9,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.55,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.75
+      },
+      "geometry": {
+        "primary_diagonal": "deep-stride-line",
+        "negative_space_shapes": [
+          "large-triangle:lunge-gap",
+          "angular:arm-placement"
+        ],
+        "silhouette_effect": "dramatically-wide-base",
+        "focal_anchor": "face-above-wide-base"
+      },
+      "keywords": [
+        "aggressive",
+        "editorial",
+        "vogue",
+        "power",
+        "geometric"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "front-thigh-of-lead-leg",
+          "rear-calf-of-trailing-leg",
+          "groin-stretch"
+        ],
+        "compressed_surfaces": [
+          "rear-knee-of-lead-leg",
+          "front-hip-crease-of-trailing-leg"
+        ],
+        "angled_planes": [
+          "hip-plane-dropped-toward-lead-leg",
+          "shoulder-plane-opposing"
+        ],
+        "joint_bend_points": [
+          "lead-knee-deep-bend",
+          "trailing-knee-extended",
+          "hip-flexion-deep"
+        ],
+        "gravity_anchor": "between-feet-low-center",
+        "surface_facing": [
+          "inner-thighs-exposed-by-wide-base",
+          "torso-elevated-above-wide-stance"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "wind_blown": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.35,
+        "hip_displacement": 0.25,
+        "weight_asymmetry": 0.55,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.45,
+        "gaze_deviation": 0.3,
+        "dynamic_tension": 0.85
+      },
+      "geometry": {
+        "implied_force_vector": "lateral-wind-direction",
+        "primary_diagonal": "body-leaning-into-or-away-from-force",
+        "negative_space_shapes": [
+          "crescent:body-lean",
+          "open:windward-side"
+        ],
+        "focal_anchor": "face-against-motion"
+      },
+      "keywords": [
+        "movement",
+        "freedom",
+        "spontaneous",
+        "romantic",
+        "windswept"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "windward-side-torso",
+          "windward-arm-extension"
+        ],
+        "compressed_surfaces": [
+          "lee-side-torso-compression",
+          "windward-hip-crease"
+        ],
+        "angled_planes": [
+          "body-plane-tilted-into-or-away-from-wind-vector"
+        ],
+        "joint_bend_points": [
+          "knees-bracing",
+          "hip-lean",
+          "neck-wind-resistance"
+        ],
+        "gravity_anchor": "shifted-into-wind",
+        "surface_facing": [
+          "windward-surfaces-exposed",
+          "lee-surfaces-sheltered"
+        ],
+        "motion_vectors": [
+          "lateral-wind-force",
+          "hair-direction",
+          "body-resistance-vector"
+        ]
+      }
+    },
+    "geometric_frame": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.4,
+        "hip_displacement": 0.3,
+        "weight_asymmetry": 0.5,
+        "joint_articulation": 0.88,
+        "negative_space_area": 0.75,
+        "gaze_deviation": 0.35,
+        "dynamic_tension": 0.4
+      },
+      "geometry": {
+        "limb_configuration": "deliberate-geometric-shapes",
+        "primary_shapes": [
+          "triangle:arms-overhead",
+          "diamond:elbows-out",
+          "frame:hands-around-face"
+        ],
+        "negative_space_shapes": [
+          "multiple-defined-geometric-voids"
+        ],
+        "focal_anchor": "framed-by-limb-geometry"
+      },
+      "keywords": [
+        "architectural",
+        "sculptural",
+        "bauhaus",
+        "graphic",
+        "constructed"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "underarm-to-elbow-overhead",
+          "side-torso-with-raised-arms"
+        ],
+        "compressed_surfaces": [
+          "shoulder-joint-compression",
+          "inner-elbow-folds"
+        ],
+        "angled_planes": [
+          "arm-planes-creating-geometric-frames",
+          "torso-plane-through-limb-windows"
+        ],
+        "joint_bend_points": [
+          "elbows-at-defined-angles",
+          "wrists-positioned",
+          "shoulders-elevated"
+        ],
+        "gravity_anchor": "centered-or-single-foot",
+        "surface_facing": [
+          "torso-visible-through-limb-geometry",
+          "inner-arm-surfaces-exposed"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "back_arch": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.45,
+        "hip_displacement": 0.2,
+        "weight_asymmetry": 0.5,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.4,
+        "gaze_deviation": 0.4,
+        "dynamic_tension": 0.55
+      },
+      "geometry": {
+        "primary_diagonal": "spine-curve-creating-backward-c",
+        "negative_space_shapes": [
+          "crescent:torso-arch",
+          "open:chest-sky"
+        ],
+        "silhouette_effect": "dramatic-spine-extension",
+        "focal_anchor": "chest-or-face-upward"
+      },
+      "keywords": [
+        "dramatic",
+        "expressive",
+        "dance",
+        "sensual",
+        "liberation"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "front-torso-full-extension",
+          "abdominals-stretched",
+          "front-neck"
+        ],
+        "compressed_surfaces": [
+          "lower-back-deep-compression",
+          "rear-shoulder-blades-together"
+        ],
+        "angled_planes": [
+          "chest-plane-faces-upward",
+          "head-plane-tilted-back"
+        ],
+        "joint_bend_points": [
+          "lumbar-extension-maximum",
+          "thoracic-extension",
+          "neck-extension"
+        ],
+        "gravity_anchor": "feet-with-hip-thrust-forward",
+        "surface_facing": [
+          "front-torso-faces-upward-or-camera",
+          "back-deeply-curved"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "twist_torso": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.3,
+        "hip_displacement": 0.25,
+        "weight_asymmetry": 0.45,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.4,
+        "gaze_deviation": 0.35,
+        "dynamic_tension": 0.5
+      },
+      "geometry": {
+        "torso_twist": 30,
+        "primary_diagonal": "hip-direction-vs-shoulder-direction",
+        "negative_space_shapes": [
+          "crescent:twisted-side-torso"
+        ],
+        "focal_anchor": "face-in-twist-direction"
+      },
+      "keywords": [
+        "dynamic",
+        "torsion",
+        "editorial",
+        "energy",
+        "spiral"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "outer-oblique-on-twist-direction",
+          "twist-side-ribcage"
+        ],
+        "compressed_surfaces": [
+          "inner-oblique-opposite-twist",
+          "compressed-waist-fold"
+        ],
+        "angled_planes": [
+          "hip-plane-and-shoulder-plane-at-30-degree-offset"
+        ],
+        "joint_bend_points": [
+          "lumbar-rotation",
+          "thoracic-rotation"
+        ],
+        "gravity_anchor": "feet-stable",
+        "surface_facing": [
+          "twisted-front-face-oblique-to-camera"
+        ],
+        "motion_vectors": [
+          "rotational-energy-through-spine"
+        ]
+      }
+    },
+    "seated_editorial": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.25,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.4,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.5,
+        "gaze_deviation": 0.25,
+        "dynamic_tension": 0.2
+      },
+      "geometry": {
+        "primary_diagonal": "extended-leg-line",
+        "negative_space_shapes": [
+          "triangle:leg-angle",
+          "diamond:crossed-or-open-legs"
+        ],
+        "silhouette_effect": "horizontal-extension",
+        "focal_anchor": "face-above-leg-geometry"
+      },
+      "keywords": [
+        "seated",
+        "editorial",
+        "legs",
+        "relaxed-power",
+        "horizontal"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "extended-leg-front-thigh",
+          "lower-back-if-leaning"
+        ],
+        "compressed_surfaces": [
+          "hip-crease-seated",
+          "behind-knee-of-bent-leg"
+        ],
+        "angled_planes": [
+          "thigh-planes-at-various-angles",
+          "torso-upright-or-leaning"
+        ],
+        "joint_bend_points": [
+          "both-hips-at-90-degrees",
+          "knees-varied",
+          "ankles-extended"
+        ],
+        "gravity_anchor": "seat-surface",
+        "surface_facing": [
+          "front-torso-faces-camera",
+          "leg-surfaces-exposed"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "natural_stand": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.08,
+        "hip_displacement": 0.1,
+        "weight_asymmetry": 0.2,
+        "joint_articulation": 0.15,
+        "negative_space_area": 0.15,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.05
+      },
+      "geometry": {
+        "shoulder_line_angle": -2,
+        "hip_line_angle": 3,
+        "primary_diagonal": "subtle-vertical",
+        "counter_diagonal": "none",
+        "negative_space_shapes": [
+          "sliver:arm-torso"
+        ],
+        "focal_anchor": "face-centered"
+      },
+      "keywords": [
+        "natural",
+        "effortless",
+        "candid",
+        "relaxed",
+        "everyday"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "minimal"
+        ],
+        "compressed_surfaces": [
+          "minimal"
+        ],
+        "angled_planes": [
+          "shoulder-plane-near-level",
+          "hip-plane-near-level"
+        ],
+        "joint_bend_points": [
+          "one-knee-very-slight"
+        ],
+        "gravity_anchor": "bilateral-feet-slight-shift",
+        "surface_facing": [
+          "torso-faces-camera-near-direct"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "hip_pop": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.2,
+        "hip_displacement": 0.45,
+        "weight_asymmetry": 0.6,
+        "joint_articulation": 0.3,
+        "negative_space_area": 0.3,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.15
+      },
+      "geometry": {
+        "shoulder_line_angle": -5,
+        "hip_line_angle": 15,
+        "primary_diagonal": "hip-apex-to-head",
+        "counter_diagonal": "weight-leg-to-dropped-shoulder",
+        "negative_space_shapes": [
+          "triangle:hip-elbow",
+          "sliver:inner-thigh"
+        ],
+        "focal_anchor": "face-above-hip-apex"
+      },
+      "keywords": [
+        "sassy",
+        "commercial",
+        "catalog",
+        "youthful",
+        "casual-fashion"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "weight-side-torso"
+        ],
+        "compressed_surfaces": [
+          "hip-pop-side-waist-fold"
+        ],
+        "angled_planes": [
+          "hip-plane-at-15-degrees",
+          "shoulder-counter-at-negative-5"
+        ],
+        "joint_bend_points": [
+          "free-leg-knee-slight",
+          "hip-lateral-push"
+        ],
+        "gravity_anchor": "weight-foot",
+        "surface_facing": [
+          "hip-apex-faces-camera",
+          "opposite-torso-compressed"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "lean_back": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.3,
+        "hip_displacement": 0.2,
+        "weight_asymmetry": 0.45,
+        "joint_articulation": 0.25,
+        "negative_space_area": 0.25,
+        "gaze_deviation": 0.2,
+        "dynamic_tension": 0.15
+      },
+      "geometry": {
+        "shoulder_line_angle": -3,
+        "hip_line_angle": 5,
+        "primary_diagonal": "hips-forward-shoulders-back-line",
+        "counter_diagonal": "head-forward-to-feet",
+        "negative_space_shapes": [
+          "crescent:torso-back-lean"
+        ],
+        "focal_anchor": "face-slightly-above"
+      },
+      "keywords": [
+        "cool",
+        "nonchalant",
+        "laid-back",
+        "street",
+        "casual"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "front-torso-opened",
+          "front-neck-exposed"
+        ],
+        "compressed_surfaces": [
+          "lower-back-slight-compression"
+        ],
+        "angled_planes": [
+          "torso-plane-tilted-backward"
+        ],
+        "joint_bend_points": [
+          "hip-slight-thrust-forward",
+          "knees-slight-bend"
+        ],
+        "gravity_anchor": "heels-weighted",
+        "surface_facing": [
+          "front-torso-faces-upward-and-camera",
+          "chest-opened"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "wide_stance_relaxed": {
+      "category": "foundation",
+      "coordinates": {
+        "primary_axis_angle": 0.05,
+        "hip_displacement": 0.08,
+        "weight_asymmetry": 0.15,
+        "joint_articulation": 0.18,
+        "negative_space_area": 0.45,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.1
+      },
+      "geometry": {
+        "shoulder_line_angle": 0,
+        "hip_line_angle": 0,
+        "primary_diagonal": "none-symmetrical",
+        "counter_diagonal": "none",
+        "negative_space_shapes": [
+          "inverted-triangle:legs"
+        ],
+        "focal_anchor": "face-centered-above-wide-base"
+      },
+      "keywords": [
+        "grounded",
+        "stable",
+        "relaxed",
+        "street-style",
+        "utilitarian"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "inner-thighs-moderate"
+        ],
+        "compressed_surfaces": [
+          "minimal"
+        ],
+        "angled_planes": [
+          "shoulder-level",
+          "hip-level"
+        ],
+        "joint_bend_points": [
+          "knees-slight-soft-bend"
+        ],
+        "gravity_anchor": "bilateral-feet-wide",
+        "surface_facing": [
+          "torso-direct-to-camera"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "hand_on_hip_single": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.12,
+        "hip_displacement": 0.2,
+        "weight_asymmetry": 0.35,
+        "joint_articulation": 0.35,
+        "negative_space_area": 0.4,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.2
+      },
+      "geometry": {
+        "arm_vectors": [
+          "45-degrees-outward-single-side"
+        ],
+        "negative_space_shapes": [
+          "triangle:arm-torso-one-side"
+        ],
+        "silhouette_effect": "asymmetric-widened",
+        "focal_anchor": "face-with-asymmetric-frame"
+      },
+      "keywords": [
+        "sassy",
+        "confident",
+        "commercial",
+        "approachable",
+        "feminine"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "akimbo-side-outer-arm"
+        ],
+        "compressed_surfaces": [
+          "akimbo-side-inner-elbow"
+        ],
+        "angled_planes": [
+          "forearm-angled-to-hip-single-side"
+        ],
+        "joint_bend_points": [
+          "akimbo-elbow-at-45",
+          "akimbo-wrist-on-hip"
+        ],
+        "gravity_anchor": "bilateral-feet-slight-shift",
+        "surface_facing": [
+          "akimbo-side-torso-framed-by-triangle",
+          "free-side-arm-hanging"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "hand_through_hair": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.15,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.25,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.35,
+        "gaze_deviation": 0.25,
+        "dynamic_tension": 0.25
+      },
+      "geometry": {
+        "arm_vectors": [
+          "one-arm-raised-to-head-level"
+        ],
+        "negative_space_shapes": [
+          "triangle:raised-elbow-head",
+          "sliver:arm-torso-gap"
+        ],
+        "silhouette_effect": "asymmetric-elongated",
+        "focal_anchor": "face-framed-by-arm-and-hair"
+      },
+      "keywords": [
+        "sensual",
+        "beauty",
+        "hair",
+        "editorial",
+        "candid",
+        "spontaneous"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "raised-arm-underarm-exposed",
+          "raised-side-torso-elongated"
+        ],
+        "compressed_surfaces": [
+          "raised-shoulder-elevated"
+        ],
+        "angled_planes": [
+          "raised-arm-near-vertical-or-angled-to-head"
+        ],
+        "joint_bend_points": [
+          "raised-elbow-above-head",
+          "raised-wrist-in-hair"
+        ],
+        "gravity_anchor": "feet-stable",
+        "surface_facing": [
+          "underarm-and-side-ribcage-exposed",
+          "face-partially-framed"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "arms_folded": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.08,
+        "hip_displacement": 0.08,
+        "weight_asymmetry": 0.2,
+        "joint_articulation": 0.4,
+        "negative_space_area": 0.1,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.15
+      },
+      "geometry": {
+        "arm_vectors": [
+          "crossed-at-chest-bilateral"
+        ],
+        "negative_space_shapes": [
+          "minimal:arms-close-to-body"
+        ],
+        "silhouette_effect": "narrowed-closed",
+        "focal_anchor": "face-above-arm-barrier"
+      },
+      "keywords": [
+        "guarded",
+        "confident",
+        "stern",
+        "corporate",
+        "closed"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "upper-back-between-shoulder-blades"
+        ],
+        "compressed_surfaces": [
+          "chest-under-forearms",
+          "inner-elbows-bilateral"
+        ],
+        "angled_planes": [
+          "forearms-horizontal-across-chest"
+        ],
+        "joint_bend_points": [
+          "both-elbows-acute",
+          "wrists-tucked"
+        ],
+        "gravity_anchor": "bilateral-feet",
+        "surface_facing": [
+          "forearms-face-camera",
+          "torso-hidden-behind-arms"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "arms_behind_back": {
+      "category": "arms",
+      "coordinates": {
+        "primary_axis_angle": 0.08,
+        "hip_displacement": 0.05,
+        "weight_asymmetry": 0.15,
+        "joint_articulation": 0.3,
+        "negative_space_area": 0.15,
+        "gaze_deviation": 0.1,
+        "dynamic_tension": 0.1
+      },
+      "geometry": {
+        "arm_vectors": [
+          "behind-body-clasped-or-relaxed"
+        ],
+        "negative_space_shapes": [
+          "clean:torso-silhouette-unbroken"
+        ],
+        "silhouette_effect": "narrowed-clean-frontal",
+        "focal_anchor": "face-above-clean-body-line"
+      },
+      "keywords": [
+        "formal",
+        "military",
+        "regal",
+        "clean-line",
+        "disciplined"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "chest-opened-forward",
+          "front-shoulders-pulled-back"
+        ],
+        "compressed_surfaces": [
+          "rear-shoulders-squeezed",
+          "inner-forearms-behind"
+        ],
+        "angled_planes": [
+          "chest-plane-pushed-forward",
+          "shoulder-plane-pulled-back"
+        ],
+        "joint_bend_points": [
+          "both-elbows-behind-body",
+          "wrists-clasped-or-loose"
+        ],
+        "gravity_anchor": "bilateral-feet",
+        "surface_facing": [
+          "full-front-torso-exposed-clean",
+          "arms-invisible-from-front"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "pivot_turn": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.3,
+        "hip_displacement": 0.35,
+        "weight_asymmetry": 0.75,
+        "joint_articulation": 0.55,
+        "negative_space_area": 0.4,
+        "gaze_deviation": 0.4,
+        "dynamic_tension": 0.75
+      },
+      "geometry": {
+        "torso_twist": 60,
+        "primary_diagonal": "pivot-foot-to-head-in-rotation",
+        "negative_space_shapes": [
+          "crescent:rotation-twist",
+          "triangle:stride-gap"
+        ],
+        "focal_anchor": "face-mid-turn"
+      },
+      "keywords": [
+        "turning",
+        "rotation",
+        "dynamic",
+        "runway-turn",
+        "pivot"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "outer-torso-on-rotation-leading-side",
+          "inner-thigh-trailing"
+        ],
+        "compressed_surfaces": [
+          "inner-waist-rotation-fold",
+          "trailing-hip-crease"
+        ],
+        "angled_planes": [
+          "hip-plane-mid-rotation",
+          "shoulder-plane-60-degrees-offset"
+        ],
+        "joint_bend_points": [
+          "pivot-ankle-rotation",
+          "both-knees-mid-weight-transfer",
+          "full-spine-rotation"
+        ],
+        "gravity_anchor": "pivot-foot",
+        "surface_facing": [
+          "torso-mid-rotation-oblique-to-camera"
+        ],
+        "motion_vectors": [
+          "rotational-momentum",
+          "deceleration-at-turn-point"
+        ]
+      }
+    },
+    "striding_long": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.25,
+        "hip_displacement": 0.3,
+        "weight_asymmetry": 0.8,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.45,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.65
+      },
+      "geometry": {
+        "stride_vector": "long-parallel-or-diagonal-to-frame",
+        "primary_diagonal": "extended-stride-heel-to-heel",
+        "negative_space_shapes": [
+          "large-triangle:wide-stride-gap"
+        ],
+        "focal_anchor": "face-above-long-stride-line"
+      },
+      "keywords": [
+        "striding",
+        "purposeful",
+        "editorial",
+        "long-legs",
+        "elongated"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "trailing-leg-full-hip-to-ankle",
+          "leading-leg-front-thigh"
+        ],
+        "compressed_surfaces": [
+          "leading-hip-crease",
+          "trailing-rear-knee"
+        ],
+        "angled_planes": [
+          "stride-plane-wide-lateral",
+          "torso-slight-forward-lean"
+        ],
+        "joint_bend_points": [
+          "both-knees-in-stride",
+          "both-hips-in-flexion-extension"
+        ],
+        "gravity_anchor": "weight-transitioning",
+        "surface_facing": [
+          "inner-legs-exposed-by-wide-stride"
+        ],
+        "motion_vectors": [
+          "strong-forward-directional",
+          "hip-counter-swing"
+        ]
+      }
+    },
+    "walking_away": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.2,
+        "hip_displacement": 0.3,
+        "weight_asymmetry": 0.7,
+        "joint_articulation": 0.45,
+        "negative_space_area": 0.3,
+        "gaze_deviation": 0.8,
+        "dynamic_tension": 0.55
+      },
+      "geometry": {
+        "stride_vector": "away-from-camera",
+        "primary_diagonal": "receding-figure-line",
+        "negative_space_shapes": [
+          "triangle:stride-gap-from-behind"
+        ],
+        "focal_anchor": "back-of-head-or-shoulder-line"
+      },
+      "keywords": [
+        "departure",
+        "mystery",
+        "back-view",
+        "receding",
+        "editorial"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "back-muscles-visible",
+          "rear-shoulder-blades-in-motion"
+        ],
+        "compressed_surfaces": [
+          "rear-hip-crease-stride"
+        ],
+        "angled_planes": [
+          "back-plane-receding",
+          "hip-plane-in-stride-from-behind"
+        ],
+        "joint_bend_points": [
+          "both-knees-mid-stride",
+          "hip-rotation-visible-from-behind"
+        ],
+        "gravity_anchor": "transitioning-away",
+        "surface_facing": [
+          "full-back-to-camera",
+          "no-face-visible"
+        ],
+        "motion_vectors": [
+          "away-from-camera",
+          "receding"
+        ]
+      }
+    },
+    "runway_pause": {
+      "category": "walking",
+      "coordinates": {
+        "primary_axis_angle": 0.15,
+        "hip_displacement": 0.35,
+        "weight_asymmetry": 0.65,
+        "joint_articulation": 0.38,
+        "negative_space_area": 0.3,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.35
+      },
+      "geometry": {
+        "shoulder_line_angle": -8,
+        "hip_line_angle": 12,
+        "primary_diagonal": "hip-to-opposite-shoulder",
+        "counter_diagonal": "weight-leg-vertical",
+        "negative_space_shapes": [
+          "triangle:hip-elbow",
+          "sliver:inner-thigh"
+        ],
+        "focal_anchor": "face-direct-at-end-of-runway"
+      },
+      "keywords": [
+        "runway",
+        "pause",
+        "end-of-catwalk",
+        "pose-and-hold",
+        "fashion-week"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "weight-side-torso-slight"
+        ],
+        "compressed_surfaces": [
+          "hip-pop-side-waist"
+        ],
+        "angled_planes": [
+          "shoulder-at-negative-8",
+          "hip-at-positive-12"
+        ],
+        "joint_bend_points": [
+          "free-leg-knee-slight",
+          "hip-lateral"
+        ],
+        "gravity_anchor": "weight-foot-planted",
+        "surface_facing": [
+          "frontal-with-slight-hip-angle"
+        ],
+        "motion_vectors": [
+          "arrested-from-walking",
+          "static-hold"
+        ]
+      }
+    },
+    "crouch": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.35,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.55,
+        "joint_articulation": 0.75,
+        "negative_space_area": 0.5,
+        "gaze_deviation": 0.2,
+        "dynamic_tension": 0.45
+      },
+      "geometry": {
+        "primary_diagonal": "head-to-feet-compressed-vertical",
+        "negative_space_shapes": [
+          "triangle:between-thighs-and-torso",
+          "diamond:arm-knee-gap"
+        ],
+        "silhouette_effect": "compressed-low-center",
+        "focal_anchor": "face-at-knee-level"
+      },
+      "keywords": [
+        "low",
+        "street",
+        "urban",
+        "dynamic",
+        "editorial",
+        "crouching"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "lower-back-rounded",
+          "rear-calves"
+        ],
+        "compressed_surfaces": [
+          "front-thigh-to-torso-deep-fold",
+          "behind-both-knees-acute",
+          "hip-crease-maximum"
+        ],
+        "angled_planes": [
+          "torso-angled-forward-over-knees",
+          "thigh-planes-near-horizontal"
+        ],
+        "joint_bend_points": [
+          "both-knees-deep-bend",
+          "both-hips-deep-flexion",
+          "ankles-dorsiflexed"
+        ],
+        "gravity_anchor": "balls-of-feet-low-center",
+        "surface_facing": [
+          "face-and-upper-torso-face-camera",
+          "thighs-foreshortened"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "high_kick": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.5,
+        "hip_displacement": 0.3,
+        "weight_asymmetry": 0.95,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.65,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.9
+      },
+      "geometry": {
+        "primary_diagonal": "kicked-leg-creates-strong-diagonal",
+        "negative_space_shapes": [
+          "large-triangle:leg-split-gap",
+          "angular:kicked-leg-body"
+        ],
+        "silhouette_effect": "dramatic-extension-vertical",
+        "focal_anchor": "face-or-kicked-foot-apex"
+      },
+      "keywords": [
+        "athletic",
+        "dance",
+        "dramatic",
+        "powerful",
+        "extension",
+        "action"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "kicked-leg-hamstring-full",
+          "supporting-leg-front-thigh",
+          "groin-split-stretch"
+        ],
+        "compressed_surfaces": [
+          "kicked-leg-front-hip-crease",
+          "supporting-ankle"
+        ],
+        "angled_planes": [
+          "kicked-leg-plane-near-vertical",
+          "supporting-leg-vertical"
+        ],
+        "joint_bend_points": [
+          "kicked-hip-flexion-extreme",
+          "supporting-knee-slight-for-balance"
+        ],
+        "gravity_anchor": "supporting-foot-only",
+        "surface_facing": [
+          "inner-thigh-of-kicked-leg-exposed",
+          "full-leg-extension-visible"
+        ],
+        "motion_vectors": [
+          "upward-kick-force",
+          "balance-counter-lean"
+        ]
+      }
+    },
+    "mannequin_rigid": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.1,
+        "hip_displacement": 0.05,
+        "weight_asymmetry": 0.1,
+        "joint_articulation": 0.05,
+        "negative_space_area": 0.1,
+        "gaze_deviation": 0.05,
+        "dynamic_tension": 0.05
+      },
+      "geometry": {
+        "primary_diagonal": "strict-vertical-cylinder",
+        "counter_diagonal": "none",
+        "negative_space_shapes": [
+          "minimal:arms-close-to-body"
+        ],
+        "silhouette_effect": "narrow-rigid-column",
+        "focal_anchor": "face-dead-center"
+      },
+      "keywords": [
+        "mannequin",
+        "rigid",
+        "inhuman",
+        "stoic",
+        "minimal",
+        "conceptual"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "minimal-all-neutral"
+        ],
+        "compressed_surfaces": [
+          "minimal-all-neutral"
+        ],
+        "angled_planes": [
+          "all-planes-level-or-vertical"
+        ],
+        "joint_bend_points": [
+          "none-all-straight"
+        ],
+        "gravity_anchor": "bilateral-feet-together",
+        "surface_facing": [
+          "all-surfaces-direct-to-camera",
+          "zero-rotation"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "levitation": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.3,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.5,
+        "joint_articulation": 0.55,
+        "negative_space_area": 0.6,
+        "gaze_deviation": 0.3,
+        "dynamic_tension": 0.7
+      },
+      "geometry": {
+        "primary_diagonal": "body-in-suspended-arc",
+        "negative_space_shapes": [
+          "open:below-body",
+          "crescent:body-arc",
+          "triangle:limb-extensions"
+        ],
+        "silhouette_effect": "floating-detached-from-ground",
+        "focal_anchor": "face-or-body-center-in-air"
+      },
+      "keywords": [
+        "floating",
+        "ethereal",
+        "supernatural",
+        "fashion-fantasy",
+        "suspended"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "full-body-extension-limbs-outward",
+          "torso-slight-arch"
+        ],
+        "compressed_surfaces": [
+          "minimal-gravity-free"
+        ],
+        "angled_planes": [
+          "body-plane-not-vertical-suspended-angle"
+        ],
+        "joint_bend_points": [
+          "limbs-softly-bent-as-if-weightless",
+          "neck-relaxed-slight-tilt"
+        ],
+        "gravity_anchor": "none-suspended",
+        "surface_facing": [
+          "all-surfaces-exposed-in-space",
+          "underneath-visible-if-low-angle"
+        ],
+        "motion_vectors": [
+          "implied-upward-or-suspended",
+          "gravity-defying"
+        ]
+      }
+    },
+    "contortion_editorial": {
+      "category": "editorial",
+      "coordinates": {
+        "primary_axis_angle": 0.65,
+        "hip_displacement": 0.4,
+        "weight_asymmetry": 0.6,
+        "joint_articulation": 0.95,
+        "negative_space_area": 0.7,
+        "gaze_deviation": 0.45,
+        "dynamic_tension": 0.65
+      },
+      "geometry": {
+        "primary_diagonal": "multi-axis-body-folding",
+        "negative_space_shapes": [
+          "complex:limb-torso-interlocking",
+          "triangle:multiple-gaps",
+          "diamond:arm-leg-crossings"
+        ],
+        "silhouette_effect": "complex-organic-sculpture",
+        "focal_anchor": "face-emerging-from-body-tangle"
+      },
+      "keywords": [
+        "contortion",
+        "extreme",
+        "sculptural",
+        "circus",
+        "editorial",
+        "body-art"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "extreme-extensions-at-multiple-joints",
+          "side-torso-stretched-over-bent-limbs"
+        ],
+        "compressed_surfaces": [
+          "deep-folds-at-multiple-joints",
+          "torso-compressed-in-fold-directions"
+        ],
+        "angled_planes": [
+          "multiple-body-planes-at-extreme-angles",
+          "limbs-crossing-body-midline"
+        ],
+        "joint_bend_points": [
+          "all-major-joints-at-or-near-maximum-range",
+          "spine-in-complex-curve"
+        ],
+        "gravity_anchor": "variable-contact-points",
+        "surface_facing": [
+          "complex-multi-directional",
+          "unexpected-surfaces-exposed"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "legs_crossed_elegant": {
+      "category": "seated",
+      "coordinates": {
+        "primary_axis_angle": 0.15,
+        "hip_displacement": 0.1,
+        "weight_asymmetry": 0.35,
+        "joint_articulation": 0.5,
+        "negative_space_area": 0.3,
+        "gaze_deviation": 0.2,
+        "dynamic_tension": 0.1
+      },
+      "geometry": {
+        "primary_diagonal": "crossed-leg-line-to-head",
+        "negative_space_shapes": [
+          "triangle:crossed-leg-gap",
+          "sliver:ankle-alignment"
+        ],
+        "silhouette_effect": "elongated-legs-seated",
+        "focal_anchor": "face-above-crossed-leg-line"
+      },
+      "keywords": [
+        "elegant",
+        "seated",
+        "legs-crossed",
+        "interview",
+        "portrait",
+        "refined"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "top-leg-outer-thigh",
+          "lower-leg-calf-extended"
+        ],
+        "compressed_surfaces": [
+          "hip-crease-seated",
+          "behind-crossed-knee"
+        ],
+        "angled_planes": [
+          "thigh-plane-crossed-diagonal",
+          "torso-upright"
+        ],
+        "joint_bend_points": [
+          "both-hips-at-90",
+          "top-knee-at-90-crossed",
+          "bottom-knee-at-90"
+        ],
+        "gravity_anchor": "seat-surface",
+        "surface_facing": [
+          "crossed-leg-top-surface-exposed",
+          "front-torso-faces-camera"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "floor_sit": {
+      "category": "seated",
+      "coordinates": {
+        "primary_axis_angle": 0.25,
+        "hip_displacement": 0.15,
+        "weight_asymmetry": 0.4,
+        "joint_articulation": 0.63,
+        "negative_space_area": 0.45,
+        "gaze_deviation": 0.2,
+        "dynamic_tension": 0.15
+      },
+      "geometry": {
+        "primary_diagonal": "torso-lean-to-extended-leg-line",
+        "negative_space_shapes": [
+          "triangle:between-legs",
+          "triangle:arm-support-body"
+        ],
+        "silhouette_effect": "wide-horizontal-grounded",
+        "focal_anchor": "face-at-low-level"
+      },
+      "keywords": [
+        "grounded",
+        "casual",
+        "floor",
+        "bohemian",
+        "intimate",
+        "relaxed"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "extended-leg-if-any",
+          "supporting-arm-if-leaning"
+        ],
+        "compressed_surfaces": [
+          "hip-crease-deep-seated-on-floor",
+          "behind-both-knees"
+        ],
+        "angled_planes": [
+          "torso-angled-by-lean-direction",
+          "leg-planes-at-various-floor-angles"
+        ],
+        "joint_bend_points": [
+          "both-hips-deep-flexion",
+          "knees-varied-bend",
+          "supporting-wrist-if-leaning"
+        ],
+        "gravity_anchor": "floor-contact-hip-and-legs",
+        "surface_facing": [
+          "front-torso-faces-camera-from-low",
+          "leg-surfaces-horizontal-or-angled"
+        ],
+        "motion_vectors": []
+      }
+    },
+    "perched_edge": {
+      "category": "seated",
+      "coordinates": {
+        "primary_axis_angle": 0.18,
+        "hip_displacement": 0.12,
+        "weight_asymmetry": 0.45,
+        "joint_articulation": 0.45,
+        "negative_space_area": 0.35,
+        "gaze_deviation": 0.15,
+        "dynamic_tension": 0.25
+      },
+      "geometry": {
+        "primary_diagonal": "extended-legs-from-elevated-seat",
+        "negative_space_shapes": [
+          "open:below-legs-to-ground",
+          "triangle:leg-angle"
+        ],
+        "silhouette_effect": "elevated-with-hanging-legs",
+        "focal_anchor": "face-elevated-above-leg-line"
+      },
+      "keywords": [
+        "perched",
+        "elevated",
+        "editorial",
+        "urban",
+        "rooftop",
+        "casual-chic"
+      ],
+      "body_surface_map": {
+        "stretched_surfaces": [
+          "front-thighs-over-edge",
+          "calves-hanging"
+        ],
+        "compressed_surfaces": [
+          "behind-thighs-on-edge-surface",
+          "hip-crease-slight"
+        ],
+        "angled_planes": [
+          "thigh-plane-angled-down-from-seat",
+          "torso-upright-or-leaning-back"
+        ],
+        "joint_bend_points": [
+          "hips-at-90-ish",
+          "knees-hanging-or-bent",
+          "ankles-relaxed"
+        ],
+        "gravity_anchor": "seat-edge-and-hands-if-supporting",
+        "surface_facing": [
+          "front-of-legs-faces-camera",
+          "torso-elevated"
+        ],
+        "motion_vectors": []
+      }
+    }
+  }
+}

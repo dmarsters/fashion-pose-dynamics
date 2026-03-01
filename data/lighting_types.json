@@ -1,0 +1,104 @@
+{
+  "lighting_types": {
+    "butterfly": {
+      "source_position": "above-center",
+      "angle_from_camera": 0,
+      "vertical_angle": 45,
+      "shadow_character": "under-nose-butterfly-shape, under-chin, under-cheekbones",
+      "highlight_zones": ["forehead", "nose-bridge", "cheekbone-tops", "upper-lip"],
+      "negative_space_behavior": "shadows-fall-into-enclosed-spaces-below-horizontal",
+      "mood": ["glamour", "beauty", "classic-hollywood"],
+      "keywords": ["paramount", "beauty", "glamour", "symmetrical", "classic"]
+    },
+    "rembrandt": {
+      "source_position": "45-degrees-lateral-and-above",
+      "angle_from_camera": 45,
+      "vertical_angle": 45,
+      "shadow_character": "triangle-of-light-on-shadow-side-cheek, strong-nose-shadow",
+      "highlight_zones": ["light-side-face", "light-side-body", "nose-bridge-one-side"],
+      "negative_space_behavior": "shadow-fills-away-side-negative-spaces",
+      "mood": ["dramatic", "painterly", "classic", "editorial"],
+      "keywords": ["dramatic", "painterly", "classic", "triangle", "depth"]
+    },
+    "split": {
+      "source_position": "90-degrees-lateral",
+      "angle_from_camera": 90,
+      "vertical_angle": 0,
+      "shadow_character": "half-face-in-complete-shadow, sharp-division-line",
+      "highlight_zones": ["light-side-face-only", "light-side-body-only"],
+      "negative_space_behavior": "shadow-side-negative-spaces-invisible",
+      "mood": ["dramatic", "mysterious", "noir", "duality"],
+      "keywords": ["dramatic", "noir", "mystery", "duality", "half-face"]
+    },
+    "loop": {
+      "source_position": "30-degrees-lateral-and-above",
+      "angle_from_camera": 30,
+      "vertical_angle": 35,
+      "shadow_character": "small-loop-shadow-from-nose, gentle-cheek-shadow",
+      "highlight_zones": ["most-of-face", "light-side-body"],
+      "negative_space_behavior": "gentle-shadow-in-closest-negative-spaces",
+      "mood": ["natural", "flattering", "commercial", "portrait"],
+      "keywords": ["natural", "flattering", "portrait", "commercial", "soft"]
+    },
+    "broad": {
+      "source_position": "light-on-face-side-toward-camera",
+      "angle_from_camera": 30,
+      "vertical_angle": 30,
+      "shadow_character": "shadow-falls-on-narrow-far-side-of-face",
+      "highlight_zones": ["wider-face-side-toward-camera", "broad-body-side"],
+      "negative_space_behavior": "shadow-in-far-side-spaces-away-from-camera",
+      "mood": ["widening", "full", "commercial", "open"],
+      "keywords": ["widening", "open", "commercial", "full-face"]
+    },
+    "short": {
+      "source_position": "light-on-face-side-away-from-camera",
+      "angle_from_camera": -30,
+      "vertical_angle": 30,
+      "shadow_character": "shadow-falls-on-wider-side-toward-camera",
+      "highlight_zones": ["narrow-far-side-of-face", "sculpted-highlight-edge"],
+      "negative_space_behavior": "shadow-on-camera-side-creates-depth",
+      "mood": ["slimming", "sculpted", "dramatic", "dimensional"],
+      "keywords": ["slimming", "sculptural", "depth", "dimensional"]
+    },
+    "rim": {
+      "source_position": "behind-and-above-subject",
+      "angle_from_camera": 180,
+      "vertical_angle": 30,
+      "shadow_character": "entire-front-in-shadow-or-low-fill",
+      "highlight_zones": ["hair-outline", "shoulder-edge", "arm-edge", "silhouette-rim"],
+      "negative_space_behavior": "all-negative-spaces-in-shadow-rim-outlines-body",
+      "mood": ["ethereal", "separation", "dramatic", "angelic"],
+      "keywords": ["ethereal", "outline", "separation", "halo", "dramatic"]
+    },
+    "clamshell": {
+      "source_position": "above-plus-below-fill",
+      "angle_from_camera": 0,
+      "vertical_angle": "dual-above-45-below-negative-20",
+      "shadow_character": "virtually-shadowless-even-illumination",
+      "highlight_zones": ["even-face", "even-body", "catch-lights-at-two-positions"],
+      "negative_space_behavior": "minimal-shadow-all-spaces-visible",
+      "mood": ["beauty", "commercial", "clean", "even"],
+      "keywords": ["beauty", "clean", "even", "commercial", "shadowless"]
+    },
+    "side_window": {
+      "source_position": "90-degrees-large-soft-source",
+      "angle_from_camera": 90,
+      "vertical_angle": 0,
+      "shadow_character": "soft-gradient-across-body-and-face",
+      "highlight_zones": ["window-side-face-and-body", "gradual-falloff"],
+      "negative_space_behavior": "soft-shadow-gradient-fills-far-side-spaces",
+      "mood": ["natural", "intimate", "fine-art", "contemplative"],
+      "keywords": ["natural", "window", "intimate", "vermeer", "soft-gradient"]
+    },
+    "overhead_harsh": {
+      "source_position": "directly-above",
+      "angle_from_camera": 0,
+      "vertical_angle": 80,
+      "shadow_character": "deep-eye-socket-shadow, under-nose, under-chin-deep",
+      "highlight_zones": ["top-of-head", "shoulder-tops", "horizontal-surfaces-only"],
+      "negative_space_behavior": "all-downward-facing-surfaces-in-deep-shadow",
+      "mood": ["dramatic", "ominous", "editorial", "avant-garde"],
+      "keywords": ["dramatic", "overhead", "ominous", "skull", "editorial"]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "body_axis": {
+    "vertical": "upright primary axis",
+    "slight_tilt": "primary axis tilted 5-15 degrees from vertical",
+    "moderate_tilt": "primary axis tilted 15-25 degrees from vertical",
+    "dramatic_lean": "primary axis tilted 25-45 degrees from vertical"
+  },
+  "limb_vectors": {
+    "parallel": "limbs aligned with body axis",
+    "opposing_diagonals": "limbs creating counter-directional lines",
+    "radial": "limbs extending outward from torso center",
+    "asymmetric": "one side active, other passive",
+    "zigzag": "alternating joint angles creating angular path"
+  },
+  "negative_space_shapes": {
+    "triangle": "three-sided void between limb and torso",
+    "diamond": "four-sided void between opposing limbs",
+    "crescent": "curved void from body curvature",
+    "sliver": "narrow elongated void between close limbs",
+    "rectangle": "regular void from straight limb arrangement"
+  },
+  "weight_distribution": {
+    "centered": "weight balanced over center point",
+    "shifted": "weight displaced to one side",
+    "asymmetric": "strong weight bias to single support",
+    "transitioning": "weight in motion between supports",
+    "grounded_low": "weight center dropped below normal standing"
+  },
+  "gaze_patterns": {
+    "direct": "gaze vector aligned with camera axis",
+    "oblique": "gaze vector 15-45 degrees off camera axis",
+    "averted": "gaze vector 45-90 degrees off camera axis",
+    "downcast": "gaze vector directed below horizontal",
+    "upward": "gaze vector directed above horizontal",
+    "torsional": "gaze direction opposing body direction"
+  },
+  "dynamic_indicators": {
+    "static": "no implied motion, stable equilibrium",
+    "arrested_motion": "pose implies stopped movement",
+    "transitional": "between two stable positions",
+    "wind_response": "body responding to external force",
+    "gravitational": "body responding to gravity beyond standing"
+  },
+  "surface_states": {
+    "stretched": "skin and muscle under tension, visible elongation",
+    "compressed": "tissue folded or compressed, crease visible",
+    "neutral": "relaxed, neither stretched nor compressed",
+    "rotated": "surface twisted along its length"
+  }
+}
