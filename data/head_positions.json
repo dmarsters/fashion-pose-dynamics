@@ -1,0 +1,140 @@
+{
+  "head_positions": {
+    "three_quarter_turn": {
+      "gaze_deviation": 0.33,
+      "chin_angle": -5,
+      "head_tilt": 0,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 2,
+        "jawline_definition": "enhanced",
+        "eye_contact": "maintained-oblique"
+      },
+      "keywords": ["classic", "flattering", "portraiture", "three-quarter"],
+      "surface_effect": {
+        "neck_stretch": "slight-opposite-turn",
+        "neck_compression": "turn-side",
+        "face_plane_angle": 30
+      }
+    },
+    "chin_down_forward": {
+      "gaze_deviation": 0.05,
+      "chin_angle": -10,
+      "head_tilt": 0,
+      "chin_extension": "forward",
+      "focal_properties": {
+        "face_planes_visible": 1,
+        "jawline_definition": "maximized",
+        "eye_contact": "direct-through-brow"
+      },
+      "keywords": ["intense", "jawline", "beauty", "direct"],
+      "surface_effect": {
+        "neck_stretch": "front-neck-compressed",
+        "neck_compression": "under-chin-defined",
+        "face_plane_angle": 0
+      }
+    },
+    "profile": {
+      "gaze_deviation": 1.0,
+      "chin_angle": 0,
+      "head_tilt": 0,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 1,
+        "jawline_definition": "silhouette",
+        "eye_contact": "none"
+      },
+      "keywords": ["statuesque", "classical", "coin", "silhouette", "editorial"],
+      "surface_effect": {
+        "neck_stretch": "full-side-neck-exposed",
+        "neck_compression": "none",
+        "face_plane_angle": 90
+      }
+    },
+    "head_tilt": {
+      "gaze_deviation": 0.15,
+      "chin_angle": 0,
+      "head_tilt": 15,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 1.5,
+        "jawline_definition": "asymmetric",
+        "eye_contact": "maintained-warm"
+      },
+      "keywords": ["approachable", "curious", "soft", "commercial", "friendly"],
+      "surface_effect": {
+        "neck_stretch": "tilt-away-side-stretched",
+        "neck_compression": "tilt-toward-side-compressed",
+        "face_plane_angle": 0
+      }
+    },
+    "chin_up": {
+      "gaze_deviation": 0.10,
+      "chin_angle": 15,
+      "head_tilt": 0,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 1,
+        "jawline_definition": "underside-exposed",
+        "eye_contact": "looking-down-at-camera"
+      },
+      "keywords": ["haughty", "confident", "editorial", "superior", "regal"],
+      "surface_effect": {
+        "neck_stretch": "front-neck-fully-exposed-elongated",
+        "neck_compression": "back-neck-compressed",
+        "face_plane_angle": 0
+      }
+    },
+    "downcast": {
+      "gaze_deviation": 0.20,
+      "chin_angle": -20,
+      "head_tilt": 5,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 1,
+        "jawline_definition": "hidden-by-angle",
+        "eye_contact": "none-averted-down"
+      },
+      "keywords": ["pensive", "melancholy", "introspective", "vulnerable", "romantic"],
+      "surface_effect": {
+        "neck_stretch": "back-neck-exposed",
+        "neck_compression": "front-neck-compressed-chin-to-chest",
+        "face_plane_angle": 10
+      }
+    },
+    "direct_gaze": {
+      "gaze_deviation": 0.0,
+      "chin_angle": 0,
+      "head_tilt": 0,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 1,
+        "jawline_definition": "standard",
+        "eye_contact": "direct-confrontational"
+      },
+      "keywords": ["direct", "confrontational", "honest", "powerful", "passport"],
+      "surface_effect": {
+        "neck_stretch": "neutral",
+        "neck_compression": "neutral",
+        "face_plane_angle": 0
+      }
+    },
+    "over_shoulder": {
+      "gaze_deviation": 0.60,
+      "chin_angle": -5,
+      "head_tilt": -5,
+      "chin_extension": "neutral",
+      "focal_properties": {
+        "face_planes_visible": 1.5,
+        "jawline_definition": "profile-enhanced",
+        "eye_contact": "maintained-over-shoulder"
+      },
+      "keywords": ["flirtatious", "mysterious", "departure", "glance-back", "seductive"],
+      "surface_effect": {
+        "neck_stretch": "full-neck-rotation-stretch",
+        "neck_compression": "turn-side-neck-compressed",
+        "face_plane_angle": 60
+      }
+    }
+  }
+}
